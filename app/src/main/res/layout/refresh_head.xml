@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/head_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ccc" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40px"
+        android:paddingTop="40px"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80px"
+            android:layout_centerInParent="true" >
+
+            <ImageView
+                android:id="@+id/pull_icon"
+                android:layout_width="40px"
+                android:layout_height="56px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="120px"
+                android:background="@mipmap/pull_icon_big" />
+
+            <ImageView
+                android:id="@+id/refreshing_icon"
+                android:layout_width="40px"
+                android:layout_height="40px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="120px"
+                android:background="@mipmap/refreshing"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/state_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="下拉刷新"
+                android:textColor="#892b2b"
+                android:textSize="32px" />
+
+            <ImageView
+                android:id="@+id/state_iv"
+                android:layout_width="32px"
+                android:layout_height="32px"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16px"
+                android:layout_toLeftOf="@id/state_tv"
+                android:visibility="gone" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

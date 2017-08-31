@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hxl.jiazai.MainActivity">
+
+
+    <com.hxl.jiazai.PullToRefreshLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:id="@+id/pull">
+        <include layout="@layout/refresh_head"/>
+<com.hxl.jiazai.MyScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="
+怎么批发拿货看这里！
+拿货提供给全国店主拼货的平台，降低批发拿货门槛，而且直接拿到广州深圳一手货源，比各省市便宜30%-50%
+一件也是打包价
+拿货APP的专业买手第一时间从厂家或是档口挑选出最好的新款和爆款，
+
+货源
+拿货APP平台整合广州·深圳·杭州·韩国东大门及海内外工作室原设计，只做一手货源。
+
+
+服务佣金
+
+   拿货APP致力于为我们的店主提供最新的新款爆款信息，您可以通过此平台，来找到适合自己店铺风格的商品，并且价格比二批节约30%甚至更多。拿货APP旗下众多资深时尚组货师穿梭于各大服装厂家与批发市场之间，精心挑选，拍照，打包发货。拿货APP收取厂家打包价格的5%作为买手的佣金，仓储成本和维护运营的基本费用，除此之外，拿货APP绝不收取任何费用，保证店主从拿货APP下单的商品成本始终比在各省市的批发市场便宜30%-50%。
+
+拿货流程
+
+   1、下载安装拿货APP，支持“苹果手机”和“安卓手机”
+   2、绑定支付宝，微信等支付功能。
+   3、在拿货APP浏览信息，选购商品下单，并保证在专题活动结束前付款，否则订单自动取消。
+   4、专题活动结束后，不成团的款式，系统会在24小时内自动退款。
+
+关于发货时间
+
+   1、对于成团的款式，拿货APP的买手将在专题结束后在市场下单采购，并于专场结束48小时内发出。
+   2、若成团但某个款式缺货，有货的款式会在专场结束48小时内发货，排单(即需要等待）的衣服将在专场结束96小时进行退款处理（除特殊说明的商品）。
+   3、对于档口断货的成团款式（因为是国内一级批发市场，价格最低，时尚度最高，所有会有排单和断货的情况发生），系统会显示订单状态，自动拆分订单，分批发出，断货的系统会在专题结束48小时退款，退款金额原路返还至您的支付宝余额账户、微信钱包。
+
+关于发货地址
+
+   1、相同期数的活动，同一个ID只能使用同一个地址。
+   2、不同期数的活动，同一个ID可以使用不同的地址。
+   3、若同一个ID，在同一期活动所下的的订单填写了不同的地址，则系统会随机发往某一个地址，因此造成的损失，由买家承担。
+
+
+发货运费
+
+   发货运费始终遵循【多退少补】的原则，无论预付多少运费，最终都以快递面单金额为准，多退少补。
+
+关于退款
+
+   1、从专场开始到当天专场结束前二小时内，已付款的订单可以申请退款。专场结束一小时前该专场订单不做任何修改，请务必核实清楚后再下单。
+   2、拼货时间结束后，不成团的款式，系统会在24小时内自动退款至您的拿货账户，可申请提现到支付宝、微信或下次使用。
+   3、断货（即停产）的款式，将在专场结束48小时内自动退款到您的拿货账户，若排单超过96小时的款式，将在专场结束96小时内退款。
+   4、特价商品在任何情况下不退不换。
+
+
+退换货政策
+
+   广州的货拿货价便宜，款式多，但起批量高。而拿货APP把全国各地店主组织起来一起拼货，分摊起批量。所以拿货APP只起到组织作用，并不是卖货的，只是根据订单，帮店主去采购，具体退换政策，也是以货源档口为准，广州档口都是不能退的，有质量问题的可以换，但也要及时，退换政策如下：
+   1、每期活动商品，在任何情况下都没有办法退货（档口政策原因），在无质量问题的情况下不能调换（档口政策原因）
+   2、有质量问题的商品可以调换。商品以订单发货单的实物为准，针对商品颜色色差、尺码大小不标准，面料材质等产生的异议，将不构成调换货的理由（档口政策原因）。
+   3、有问题的商品，需在签收包裹（无论是否本人签收）后24小时内联系官方客服，逾期将不在受理。
+   4、因质量问题而产生调换货时，店主返货至拿货仓库的运费，由店主承担。调换货后的商品从一手仓库发回给店主的运费，由我们承担。
+   5、为保证买手能及时处理调换货商品，请在与官方客服沟通确认后的24小时内把货返回给我们，并截图告知有效快递单号。如果因店主未配合及时返货而最终导致档口无货可调换，买手将会在收到店主返货时，原路返给店主，运费由店主承担。
+  6、收到的商品实物出现以下问题之一，可联系客服进行调换货处理：
+  6.1、质量问题：如商品有破损，大面积污渍等。（不包含对面料材质、做工不满意等）
+  6.2、款式错误：如衬衣采购成裙子等。（不包含一些与图片的微小细节差异，如：领子比图片小等）
+  6.3、颜色错误：如白色采购成黑色等。（不包含档口实拍图与实物的色差）
+
+ 关于交易资金安全
+
+  拿货APP所有拼货活动，均会且只会在拿货APP上进行，为了确保店主的资金安全及售后权益，请店主们通过拿货APP进行看款，交易。店主因未通过拿货APP交易而导致的一切损失，由店主自行承担责任。
+
+
+   特别声明
+
+   您一旦成功提交订单， 即视为同意并愿意配合以上所有条款。
+
+
+
+
+"/>
+    </LinearLayout>
+</com.hxl.jiazai.MyScrollView>
+        <include layout="@layout/load_more"/>
+    </com.hxl.jiazai.PullToRefreshLayout>
+</RelativeLayout>
